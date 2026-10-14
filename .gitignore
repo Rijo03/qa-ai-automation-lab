@@ -147,3 +147,25 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Dependencies
+node_modules/
+
+# Saved login state (can contain session tokens)
+playwright/.auth/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
